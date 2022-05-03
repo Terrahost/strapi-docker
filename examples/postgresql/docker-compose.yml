@@ -3,7 +3,7 @@ version: '3'
 services:
   strapi:
     container_name: strapi
-    image: strapi/strapi
+    image: terrahost/strapi
     environment:
       - DATABASE_CLIENT=postgres
       - DATABASE_HOST=db
